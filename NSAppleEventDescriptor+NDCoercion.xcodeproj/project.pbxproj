@@ -10,6 +10,11 @@
 		D8F2538E13DC6F6F002A57DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2538D13DC6F6F002A57DC /* Foundation.framework */; };
 		D8F2539113DC6F70002A57DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2539013DC6F70002A57DC /* main.m */; };
 		D8F2539513DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8F2539413DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 */; };
+		D8F253A413DC6FC0002A57DC /* NDProgrammerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2539D13DC6FC0002A57DC /* NDProgrammerUtilities.m */; };
+		D8F253A513DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2539F13DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.m */; };
+		D8F253A613DC6FC0002A57DC /* NSURL+NDCarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F253A113DC6FC0002A57DC /* NSURL+NDCarbonUtilities.m */; };
+		D8F253A713DC6FC0002A57DC /* NSValue+NDFourCharCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F253A313DC6FC0002A57DC /* NSValue+NDFourCharCode.m */; };
+		D8F253A913DC7013002A57DC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F253A813DC7013002A57DC /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +34,17 @@
 		D8F2538913DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSAppleEventDescriptor+NDCoercion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F2538D13DC6F6F002A57DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8F2539013DC6F70002A57DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8F2539313DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion-Prefix.pch */ = {isa = PBXFileReference; path = "NSAppleEventDescriptor+NDCoercion-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2539313DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor+NDCoercion-Prefix.pch"; sourceTree = "<group>"; };
 		D8F2539413DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSAppleEventDescriptor_NDCoercion.1; sourceTree = "<group>"; };
+		D8F2539C13DC6FC0002A57DC /* NDProgrammerUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDProgrammerUtilities.h; sourceTree = "<group>"; };
+		D8F2539D13DC6FC0002A57DC /* NDProgrammerUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDProgrammerUtilities.m; sourceTree = "<group>"; };
+		D8F2539E13DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor+NDCoercion.h"; sourceTree = "<group>"; };
+		D8F2539F13DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAppleEventDescriptor+NDCoercion.m"; sourceTree = "<group>"; };
+		D8F253A013DC6FC0002A57DC /* NSURL+NDCarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+NDCarbonUtilities.h"; sourceTree = "<group>"; };
+		D8F253A113DC6FC0002A57DC /* NSURL+NDCarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+NDCarbonUtilities.m"; sourceTree = "<group>"; };
+		D8F253A213DC6FC0002A57DC /* NSValue+NDFourCharCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+NDFourCharCode.h"; sourceTree = "<group>"; };
+		D8F253A313DC6FC0002A57DC /* NSValue+NDFourCharCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+NDFourCharCode.m"; sourceTree = "<group>"; };
+		D8F253A813DC7013002A57DC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F2538E13DC6F6F002A57DC /* Foundation.framework in Frameworks */,
+				D8F253A913DC7013002A57DC /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				D8F2538F13DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion */,
+				D8F2539B13DC6FC0002A57DC /* Classes */,
 				D8F2538C13DC6F6F002A57DC /* Frameworks */,
 				D8F2538A13DC6F6F002A57DC /* Products */,
 			);
@@ -65,6 +81,7 @@
 		D8F2538C13DC6F6F002A57DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8F253A813DC7013002A57DC /* Carbon.framework */,
 				D8F2538D13DC6F6F002A57DC /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -86,6 +103,21 @@
 				D8F2539313DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8F2539B13DC6FC0002A57DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2539C13DC6FC0002A57DC /* NDProgrammerUtilities.h */,
+				D8F2539D13DC6FC0002A57DC /* NDProgrammerUtilities.m */,
+				D8F2539E13DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.h */,
+				D8F2539F13DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.m */,
+				D8F253A013DC6FC0002A57DC /* NSURL+NDCarbonUtilities.h */,
+				D8F253A113DC6FC0002A57DC /* NSURL+NDCarbonUtilities.m */,
+				D8F253A213DC6FC0002A57DC /* NSValue+NDFourCharCode.h */,
+				D8F253A313DC6FC0002A57DC /* NSValue+NDFourCharCode.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F2539113DC6F70002A57DC /* main.m in Sources */,
+				D8F253A413DC6FC0002A57DC /* NDProgrammerUtilities.m in Sources */,
+				D8F253A513DC6FC0002A57DC /* NSAppleEventDescriptor+NDCoercion.m in Sources */,
+				D8F253A613DC6FC0002A57DC /* NSURL+NDCarbonUtilities.m in Sources */,
+				D8F253A713DC6FC0002A57DC /* NSValue+NDFourCharCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
