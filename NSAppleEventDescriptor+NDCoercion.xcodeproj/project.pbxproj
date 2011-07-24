@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F2538E13DC6F6F002A57DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F2538D13DC6F6F002A57DC /* Foundation.framework */; };
+		D8F2539113DC6F70002A57DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F2539013DC6F70002A57DC /* main.m */; };
+		D8F2539513DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8F2539413DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8F2538713DC6F6F002A57DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D8F2539513DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8F2538913DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSAppleEventDescriptor+NDCoercion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F2538D13DC6F6F002A57DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8F2539013DC6F70002A57DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F2539313DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion-Prefix.pch */ = {isa = PBXFileReference; path = "NSAppleEventDescriptor+NDCoercion-Prefix.pch"; sourceTree = "<group>"; };
+		D8F2539413DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSAppleEventDescriptor_NDCoercion.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F2538613DC6F6F002A57DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2538E13DC6F6F002A57DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F2537E13DC6F6F002A57DC = {
+			isa = PBXGroup;
+			children = (
+				D8F2538F13DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion */,
+				D8F2538C13DC6F6F002A57DC /* Frameworks */,
+				D8F2538A13DC6F6F002A57DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F2538A13DC6F6F002A57DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2538913DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F2538C13DC6F6F002A57DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2538D13DC6F6F002A57DC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F2538F13DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2539013DC6F70002A57DC /* main.m */,
+				D8F2539413DC6F70002A57DC /* NSAppleEventDescriptor_NDCoercion.1 */,
+				D8F2539213DC6F70002A57DC /* Supporting Files */,
+			);
+			path = "NSAppleEventDescriptor+NDCoercion";
+			sourceTree = "<group>";
+		};
+		D8F2539213DC6F70002A57DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2539313DC6F70002A57DC /* NSAppleEventDescriptor+NDCoercion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F2538813DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F2539813DC6F70002A57DC /* Build configuration list for PBXNativeTarget "NSAppleEventDescriptor+NDCoercion" */;
+			buildPhases = (
+				D8F2538513DC6F6F002A57DC /* Sources */,
+				D8F2538613DC6F6F002A57DC /* Frameworks */,
+				D8F2538713DC6F6F002A57DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSAppleEventDescriptor+NDCoercion";
+			productName = "NSAppleEventDescriptor+NDCoercion";
+			productReference = D8F2538913DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F2538013DC6F6F002A57DC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8F2538313DC6F6F002A57DC /* Build configuration list for PBXProject "NSAppleEventDescriptor+NDCoercion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8F2537E13DC6F6F002A57DC;
+			productRefGroup = D8F2538A13DC6F6F002A57DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F2538813DC6F6F002A57DC /* NSAppleEventDescriptor+NDCoercion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F2538513DC6F6F002A57DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F2539113DC6F70002A57DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8F2539613DC6F70002A57DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8F2539713DC6F70002A57DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8F2539913DC6F70002A57DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAppleEventDescriptor+NDCoercion/NSAppleEventDescriptor+NDCoercion-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8F2539A13DC6F70002A57DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSAppleEventDescriptor+NDCoercion/NSAppleEventDescriptor+NDCoercion-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F2538313DC6F6F002A57DC /* Build configuration list for PBXProject "NSAppleEventDescriptor+NDCoercion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F2539613DC6F70002A57DC /* Debug */,
+				D8F2539713DC6F70002A57DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F2539813DC6F70002A57DC /* Build configuration list for PBXNativeTarget "NSAppleEventDescriptor+NDCoercion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F2539913DC6F70002A57DC /* Debug */,
+				D8F2539A13DC6F70002A57DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F2538013DC6F6F002A57DC /* Project object */;
+}
