@@ -1,0 +1,1 @@
+NSAppleEventDescriptor+NDCoercion used to be a part of a project called NDScript but this category contains methods which are of user with NSAppleScript.
